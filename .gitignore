@@ -1,0 +1,8 @@
+# TwinCAT generated/build output
+**/_Boot/
+**/_CompileInfo/
+
+# TwinCAT lock and backup files
+*.~u
+*.bak
+*.~sf

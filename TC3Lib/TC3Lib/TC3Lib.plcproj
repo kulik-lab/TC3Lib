@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ce57744e-9ca5-4a05-b834-00df9ff614a2}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <DownloadApplicationInfo>true</DownloadApplicationInfo>
+    <WriteProductVersion>true</WriteProductVersion>
+    <GenerateTpy>false</GenerateTpy>
+    <Name>TC3Lib</Name>
+    <ProgramVersion>3.1.4024.0</ProgramVersion>
+    <Application>{f904c8d1-dc65-403a-af82-a9dd99da0d66}</Application>
+    <TypeSystem>{487d5c88-223c-48c5-aea0-027335590a4b}</TypeSystem>
+    <Implicit_Task_Info>{7c49aab4-fb0b-4ec9-96fb-f8fae01f7fe4}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{92d9489b-a63b-4f3f-9c01-18a256e44167}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{43ea18d6-9ceb-4b2a-93c7-d6e2dc2f3692}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{2385e6b1-8b68-4043-8097-91a3f155bec8}</LibraryReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FB_Test.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ProjectExtensions>
+    <PlcProjectOptions>
+      <XmlArchive>
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
+      <v n="Name">"&lt;ProjectRoot&gt;"</v>
+      <d n="SubKeys" t="Hashtable" />
+      <d n="Values" t="Hashtable" />
+    </o>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
+    </PlcProjectOptions>
+  </ProjectExtensions>
+</Project>
