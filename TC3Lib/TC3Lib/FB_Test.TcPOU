@@ -14,12 +14,13 @@ END_VAR
     <Implementation>
       <ST><![CDATA[
 // decrease
+//1.4 increase
 IF i_bIncreaseCount THEN
-	o_nInt1 := o_nInt1 - 1;
+	o_nInt1 := o_nInt1 + 1;
 END_IF]]></ST>
     </Implementation>
     <LineIds Name="FB_Test">
-      <LineId Id="26" Count="1" />
+      <LineId Id="26" Count="2" />
       <LineId Id="9" Count="0" />
       <LineId Id="15" Count="1" />
     </LineIds>
