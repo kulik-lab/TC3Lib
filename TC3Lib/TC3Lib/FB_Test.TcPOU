@@ -14,9 +14,9 @@ END_VAR
     <Implementation>
       <ST><![CDATA[
 // decrease
-//1.4 increase
+//1.5 increase +100
 IF i_bIncreaseCount THEN
-	o_nInt1 := o_nInt1 + 1;
+	o_nInt1 := o_nInt1 + 100;
 END_IF]]></ST>
     </Implementation>
     <LineIds Name="FB_Test">

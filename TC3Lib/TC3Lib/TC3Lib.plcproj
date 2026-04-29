@@ -19,7 +19,7 @@
     <Company>FUFUFFIFUFUF</Company>
     <Released>false</Released>
     <Title>MyLibrary3</Title>
-    <ProjectVersion>1.3</ProjectVersion>
+    <ProjectVersion>1.5</ProjectVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FB_Test.TcPOU">
