@@ -2,6 +2,9 @@
 **/_Boot/
 **/_CompileInfo/
 
+# Visual Studio
+.vs/
+
 # TwinCAT lock and backup files
 *.~u
 *.bak
