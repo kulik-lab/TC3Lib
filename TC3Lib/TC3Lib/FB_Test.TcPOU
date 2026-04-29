@@ -12,11 +12,14 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[IF i_bIncreaseCount THEN
-	o_nInt1 := o_nInt1 + 1;
+      <ST><![CDATA[
+// decrease
+IF i_bIncreaseCount THEN
+	o_nInt1 := o_nInt1 - 1;
 END_IF]]></ST>
     </Implementation>
     <LineIds Name="FB_Test">
+      <LineId Id="26" Count="1" />
       <LineId Id="9" Count="0" />
       <LineId Id="15" Count="1" />
     </LineIds>
