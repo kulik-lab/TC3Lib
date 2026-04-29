@@ -16,28 +16,37 @@
     <Implicit_KindOfTask>{92d9489b-a63b-4f3f-9c01-18a256e44167}</Implicit_KindOfTask>
     <Implicit_Jitter_Distribution>{43ea18d6-9ceb-4b2a-93c7-d6e2dc2f3692}</Implicit_Jitter_Distribution>
     <LibraryReferences>{2385e6b1-8b68-4043-8097-91a3f155bec8}</LibraryReferences>
+    <Company>FUFUFFIFUFUF</Company>
+    <Released>false</Released>
+    <Title>MyLibrary3</Title>
+    <ProjectVersion>1.2</ProjectVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FB_Test.TcPOU">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TC3Lib.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-  <Data>
-    <o xml:space="preserve" t="OptionKey">
+        <Data>
+          <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" />
       <d n="Values" t="Hashtable" />
     </o>
-  </Data>
-  <TypeList>
-    <Type n="Hashtable">System.Collections.Hashtable</Type>
-    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-    <Type n="String">System.String</Type>
-  </TypeList>
-</XmlArchive>
+        </Data>
+        <TypeList>
+          <Type n="Hashtable">System.Collections.Hashtable</Type>
+          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+          <Type n="String">System.String</Type>
+        </TypeList>
+      </XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>
